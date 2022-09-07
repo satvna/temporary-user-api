@@ -8,6 +8,11 @@ import javax.persistence.Id;
 @Entity
 public class User {
 
+    User(){
+        this.id = null;
+        this.username = null;
+        this.password = null;
+    }
     public Integer getId() {
         return id;
     }
